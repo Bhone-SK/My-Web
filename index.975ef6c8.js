@@ -27210,12 +27210,10 @@ const imageAltText = "Blue and Pink Wavy Sections, with milky gap in the middle"
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design", 
+    "C++ Programming",
+    "Java Programming",
+    "Academic Writing",
+    "HTML and CSS"
 ];
 /**
  * Use this to give more information about what you are passionate about,
@@ -27233,12 +27231,12 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    backgroundColor: "white",
+                    backgroundColor: "#BEDE76",
                     width: "50%",
                     padding: "4rem",
                     margin: "3rem auto",
@@ -27249,7 +27247,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27257,12 +27255,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27277,17 +27275,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27297,19 +27295,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 45,
         columnNumber: 5
     }, undefined);
 };
@@ -27609,7 +27607,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://github.com/${gitHub}`,
+                        href: "https://github.com/Bhone-SK",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27619,12 +27617,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
                             lineNumber: 75,
-                            columnNumber: 13
+                            columnNumber: 15
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
                         lineNumber: 74,
-                        columnNumber: 11
+                        columnNumber: 13
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: `https://www.instagram.com/${instagram}`,
@@ -28645,9 +28643,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _pixelTVPng = require("../images/pixel_TV.png");
-var _pixelTVPngDefault = parcelHelpers.interopDefault(_pixelTVPng);
-const imageAltText = "Retro TV Pixel Art";
+ */ var _circuitInteriorJpg = require("../images/Circuit_Interior.jpg");
+var _circuitInteriorJpgDefault = parcelHelpers.interopDefault(_circuitInteriorJpg);
+const imageAltText = "A detailed close up of a circuit board";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28655,7 +28653,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _pixelTVPngDefault.default),
+                src: (0, _circuitInteriorJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28739,11 +28737,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/pixel_TV.png":"ZL7sz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Circuit_Interior.jpg":"evmTM"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"ZL7sz":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pixel_TV.7bf3157b.png" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"evmTM":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Circuit_Interior.ce5254a5.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28773,8 +28771,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
+ */ var _pixelTVPng = require("../images/pixel_TV.png");
+var _pixelTVPngDefault = parcelHelpers.interopDefault(_pixelTVPng);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28783,7 +28781,7 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "GUI Java Guessing GAme",
+        title: "Java Guessing Game",
         description: "An interactive GUI Java game that lets the users take a guess. With a kitten that will get sad when you get it wrong, can you still turn away?",
         url: "https://github.com/Bhone-SK/GUI-GUESSING-GAME"
     },
@@ -28831,7 +28829,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
+                            src: (0, _pixelTVPngDefault.default),
                             className: "slide-in-left",
                             style: {
                                 height: "90%",
@@ -28915,8 +28913,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/pixel_TV.png":"ZL7sz"}],"ZL7sz":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pixel_TV.7bf3157b.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
