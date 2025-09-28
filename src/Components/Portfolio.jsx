@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "GUI Java Guessing GAme",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An interactive GUI Java game that lets the users take a guess. With a kitten that will get sad when you get it wrong, can you still turn away?",
+    url: "https://github.com/Bhone-SK/GUI-GUESSING-GAME",
   },
   {
     title: "Web Development for Beginners",

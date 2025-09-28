@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/simple_TriColor_Waves.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Blue and Pink Wavy Sections, with milky gap in the middle";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a Computer Science Student studying at Orange Coast College, aspiring to transfer to UC Berkely. My career goal is in cybersecurity as a start.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am self-learning HTML, CSS, and JavaScript to create a website for student's mental health. I hope to contribute to my community positively in this way.";
 
 const About = () => {
   return (
