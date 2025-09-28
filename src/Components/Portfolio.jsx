@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/pixel_TV.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,7 +31,7 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "GUI Java Guessing GAme",
+    title: "GUI Java Guessing Game",
     description:
       "An interactive GUI Java game that lets the users take a guess. With a kitten that will get sad when you get it wrong, can you still turn away?",
     url: "https://github.com/Bhone-SK/GUI-GUESSING-GAME",

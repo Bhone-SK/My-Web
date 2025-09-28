@@ -30,14 +30,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["C++ Programming", "Java Programming", "Academic Writing", "HTML and CSS"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -53,7 +46,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#BEDE76",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",

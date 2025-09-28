@@ -20,9 +20,9 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/pixel_TV.png";
+import image from "../images/Circuit_Interior.jpg";
 
-const imageAltText = "Retro TV Pixel Art";
+const imageAltText = "A detailed close up of a circuit board";
 
 const Home = ({ name, title }) => {
   return (
