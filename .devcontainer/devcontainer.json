@@ -1,5 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/devcontainers/images/tree/main/src/javascript-node
+
 {
   "name": "JavaScript Portfolio Site with GitHub Codespaces",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
@@ -23,13 +24,20 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow"
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "files.eol": "\n",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "editor.rulers": [80, 120],
+          "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "always"
       }
     }
   },
@@ -47,4 +55,5 @@
   },
 
   "forwardPorts": [1234]
+}
 }
