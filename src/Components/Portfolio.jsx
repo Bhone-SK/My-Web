@@ -31,7 +31,7 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "GUI Java Guessing Game",
+    title: "Java Guessing Game",
     description:
       "An interactive GUI Java game that lets the users take a guess. With a kitten that will get sad when you get it wrong, can you still turn away?",
     url: "https://github.com/Bhone-SK/GUI-GUESSING-GAME",
