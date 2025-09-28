@@ -12,9 +12,9 @@
 
   "scripts": {
 
-    "start": "...existing code...",
-
-    "build": "...existing code...",
+    "start": "parcel src/index.html",
+    
+    "build": "parcel build src/index.html",
 
     "build-gh": "parcel build --public-url 'https://Bhone-SK.github.io/My-Web'",
 

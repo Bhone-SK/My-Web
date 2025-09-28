@@ -6,6 +6,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
@@ -122,4 +123,34 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* Add a slide in left animation */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+/* Add bounce animation to my arrow */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+}
+
+.bounce-arrow {
+  animation: bounce 1s infinite;
 }
