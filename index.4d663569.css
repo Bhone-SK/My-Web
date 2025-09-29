@@ -89,12 +89,12 @@ li::marker {
 }
 
 a {
-  color: #f9a822;
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f96635;
+  color: #4e567e;
 }
 
 .container {
@@ -104,9 +104,13 @@ a:hover {
   display: grid;
 }
 
+.portfolio-section {
+  background-color: #93d3ae;
+}
+
 .container .box {
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #141414;
   border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;
