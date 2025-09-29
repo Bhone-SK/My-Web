@@ -27,7 +27,7 @@ const siteProps = {
   name: "Bhone Sin Kyal",
   title: "Computer Science Student",
   email: "bhonesinkyal10@gmail.com",
-  gitHub: "microsoft",
+  gitHub: "https://github.com/Bhone-SK",
   instagram: "microsoft",
   linkedIn: "satyanadella",
   medium: "",
