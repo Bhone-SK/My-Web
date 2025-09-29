@@ -49,7 +49,7 @@ const Footer = (props) => {
         alignItems: "center",
         gap: "2.5rem",
         padding: "5rem 0 3rem",
-        backgroundColor: "#FAECB6",
+        backgroundColor: "#2BBAA5",
         width: "100vw"
       }}
     >
