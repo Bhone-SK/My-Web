@@ -110,6 +110,31 @@ a:hover {
   margin: 20px auto;
 }
 
+/* Responsive layout for Portfolio section */
+@media (max-width: 800px) {
+  .portfolio-section {
+    padding: 2rem 0;
+  }
+  .portfolio-section > div {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .portfolio-section img {
+    max-width: 90vw;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .container .box {
+    width: 100%;
+  }
+}
+
+
 .portfolio-section {
   background-color: #93D3AE; /* or any color you want */
 }
