@@ -28781,14 +28781,14 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
+        title: "PDF Q&A Bot",
+        description: "An interactive bot that answers questions about PDF documents. Built with Python and Natural Language Processing.",
+        url: "https://github.com/Bhone-SK/PDF-Q&A-Bot"
+    },
+    {
         title: "Java Guessing Game",
         description: "An interactive GUI Java game that lets the users take a guess. With a kitten that will get sad when you get it wrong, can you still turn away?",
         url: "https://github.com/Bhone-SK/GUI-GUESSING-GAME"
-    },
-    {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
     },
     {
         title: "My Resume Site",
@@ -28796,9 +28796,9 @@ const imageAltText = "desktop with books and laptop";
         url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "Math-O-Lantern",
+        description: "A Halloween-themed math game built with C++. Players solve math problems to keep the pumpkin safe from fireballs.",
+        url: "https://github.com/Bhone-SK/Math-O-Lantern"
     }, 
 ];
 const Portfolio = ()=>{
